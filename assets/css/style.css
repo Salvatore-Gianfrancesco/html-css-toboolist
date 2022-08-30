@@ -34,6 +34,7 @@ main{
     height: 3rem;
     line-height: 3rem;
     padding-left: 3rem;
+    margin: 0.1rem;
     
 }
 
@@ -49,4 +50,95 @@ main{
     color: lightgrey;
     border: 2px solid lightgrey;
     border-radius: 5px;
+}
+
+#list{
+    background-color: white;
+    padding: 3rem;
+    margin: 0.1rem;
+}
+
+.drop_down_arrow{
+    font-size: 1rem;
+}
+
+.check_line{
+    padding-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.check{
+    padding: 0.1rem;
+    border-radius: 50%;
+    border: 1px solid green;
+    height: 1rem;
+    color: green;
+}
+
+.cross{
+    padding: 0.1rem;
+    border-radius: 50%;
+    border: 1px solid red;
+    height: 1rem;
+    color: red;
+}
+
+.editorial{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+
+.q1goals{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: mediumslateblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+
+.recruiting{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: mediumseagreen;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+
+.mobile{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+
+.website{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: fuchsia;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+
+.sales{
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color:olivedrab;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
 }
