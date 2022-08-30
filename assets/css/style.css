@@ -1,12 +1,17 @@
-body{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     font-family: 'Arial',  sans-serif;
-    background-color: whitesmoke;
+    background-color: #f6f8f9;
 }
 
 header{
-    padding-left: 1rem;
-    background-color: white;
+    padding: 1rem;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -30,7 +35,7 @@ main{
 
 #button_section{
     height: 3rem;
-    background-color: white;
+    background-color: #ffffff;
     height: 3rem;
     line-height: 3rem;
     padding-left: 3rem;
@@ -39,21 +44,23 @@ main{
 }
 
 #add_task{
-    background-color: deepskyblue;
-    color: white;
-    border: 2px solid deepskyblue;
+    background-color: #45abea;
+    color: #ffffff;
+    border: 2px solid #45abea;
     border-radius: 5px;
+    padding: 0.2rem;
 }
 
 #add_section{
-    background-color: white;
-    color: lightgrey;
-    border: 2px solid lightgrey;
+    background-color: #ffffff;
+    color: #dee1e4;
+    border: 2px solid #dee1e4;
     border-radius: 5px;
+    padding: 0.2rem;
 }
 
 #list{
-    background-color: white;
+    background-color: #ffffff;
     padding: 3rem;
     margin: 0.1rem;
 }
@@ -64,31 +71,40 @@ main{
 
 .check_line{
     padding-left: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .check{
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    line-height: 0.9rem;
     padding: 0.1rem;
     border-radius: 50%;
-    border: 1px solid green;
-    height: 1rem;
-    color: green;
+    border: 1px solid #86cfbf;
+    color: #86cfbf;
+    vertical-align: middle;
 }
 
 .cross{
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    line-height: 0.9rem;
     padding: 0.1rem;
     border-radius: 50%;
-    border: 1px solid red;
-    height: 1rem;
-    color: red;
+    border: 1px solid #eb5f59;
+    color: #eb5f59;
+    vertical-align: middle;
 }
 
 .editorial{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color: deepskyblue;
-    color: white;
+    background-color: #45abea;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
@@ -97,8 +113,8 @@ main{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color: mediumslateblue;
-    color: white;
+    background-color: #9c72e4;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
@@ -107,8 +123,8 @@ main{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color: mediumseagreen;
-    color: white;
+    background-color: #64c0a9;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
@@ -117,8 +133,8 @@ main{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color: orange;
-    color: white;
+    background-color: #f29e33;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
@@ -127,8 +143,8 @@ main{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color: fuchsia;
-    color: white;
+    background-color: #d863a1;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
@@ -137,8 +153,8 @@ main{
     padding: 0.3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    background-color:olivedrab;
-    color: white;
+    background-color: #b0c926;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 0.6rem;
 }
